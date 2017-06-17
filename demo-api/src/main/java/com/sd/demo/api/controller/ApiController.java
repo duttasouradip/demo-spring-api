@@ -11,5 +11,10 @@ public class ApiController {
 		return "Hello World";
 	}
 	
+	@GetMapping("/welcome")
+	public String welcome(){
+		return "Hello SD";
+	}
+	
 	
 }
